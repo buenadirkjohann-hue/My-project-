@@ -11,3 +11,6 @@
 <section class="wrap"><div class="banner reveal"><div><span class="pill">A tasty little treat</span><h2 style="margin:12px 0 0">Try a bite of Kamochi.</h2><p>Ask the makers about the serving size and availability.</p></div><div class="bigprice">₱15 <small>/ price listed</small></div></div></section></main>
 <footer><div class="wrap foot"><span><strong>kamochi.</strong> — A school-project food business</span><span>Made with care in Madridejos · © <span id="year"></span></span></div></footer>
 <script>document.getElementById('year').textContent=new Date().getFullYear();const els=document.querySelectorAll('.reveal');if('IntersectionObserver'in window){const ob=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('show');ob.unobserve(e.target)}}),{threshold:.1});els.forEach(el=>ob.observe(el))}else{els.forEach(el=>el.classList.add('show'))}</script></body></html>
+<img src="kamochi.png"
+     alt="Kamochi sweet potato"
+     style="width:100%; max-width:600px; border-radius:12px;">
